@@ -1,12 +1,12 @@
-📝 Project Description
+# 📝 Project Description
 
 This project aims to perform customer segmentation using the K-Means clustering algorithm. Customer segmentation helps businesses understand distinct groups of customers, enabling targeted marketing and personalized experiences. The dataset contains customer attributes such as demographic information, purchasing behavior, and other relevant features. The goal is to group similar customers together to understand their characteristics and tailor strategies accordingly.
 
-#💡 Motivation
+# 💡 Motivation
 
 Customer segmentation is crucial for businesses looking to enhance customer satisfaction and optimize marketing efforts. By segmenting customers, companies can develop targeted strategies to increase retention and maximize revenue.
 
-#🛠️ Technologies and Libraries Used
+# 🛠️ Technologies and Libraries Used
 
 Python
 
