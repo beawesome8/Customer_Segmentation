@@ -8,66 +8,46 @@ Customer segmentation is crucial for businesses looking to enhance customer sati
 
 # 🛠️ Technologies and Libraries Used
 
-Python
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Pandas
+# ⚙️ Data Preprocessing
 
-NumPy
+- Data Cleaning: Handled missing values and removed redundant features.
+- Encoding: Applied encoding techniques to transform categorical variables.
+- Scaling: Used StandardScaler to normalize data.
+- Dimensionality Reduction: Applied PCA to reduce the data dimensionality and retain variance.
 
-Scikit-learn
+# 🚀 Clustering and Modeling
 
-Matplotlib
+- Used K-Means clustering to segment customers based on their attributes.
+- Determined the optimal number of clusters using:
+- Elbow Method (Inertia)
+- Silhouette Method (Silhouette Score)
+- Visualized clusters using PCA-transformed data.
+- Analyzed cluster centroids to understand customer characteristics.
 
-Seaborn
+# 📊 Results and Visualizations
 
-Jupyter Notebook
-
-#⚙️ Data Preprocessing
-
-Data Cleaning: Handled missing values and removed redundant features.
-
-Encoding: Applied encoding techniques to transform categorical variables.
-
-Scaling: Used StandardScaler to normalize data.
-
-Dimensionality Reduction: Applied PCA to reduce the data dimensionality and retain variance.
-
-#🚀 Clustering and Modeling
-
-Used K-Means clustering to segment customers based on their attributes.
-
-Determined the optimal number of clusters using:
-
-Elbow Method (Inertia)
-
-Silhouette Method (Silhouette Score)
-
-Visualized clusters using PCA-transformed data.
-
-Analyzed cluster centroids to understand customer characteristics.
-
-#📊 Results and Visualizations
-
-The clusters were visualized using scatter plots with principal components. The analysis revealed distinct customer segments that could be interpreted for marketing and business strategy purposes.
+- The clusters were visualized using scatter plots with principal components. The analysis revealed distinct customer segments that could be interpreted for marketing and business strategy purposes.
 
 #🚦 Usage and How to Run
 
-Clone the repository.
-
-Install the required libraries using:
-
-pip install -r requirements.txt
-
-Run the Jupyter Notebook:
-
-jupyter notebook Customer_Segmentation.ipynb
+- Clone the repository.
+- Install the required libraries using:
+- pip install -r requirements.txt
+- Run the Jupyter Notebook:
+- jupyter notebook Customer_Segmentation.ipynb
 
 Follow the steps in the notebook to reproduce the clustering results.
 
-#🚀 Future Improvements
+# 🚀 Future Improvements
 
-Experiment with other clustering algorithms like DBSCAN or Agglomerative Clustering.
-
-Integrate real-time prediction for new customer data.
-
-Improve visualization with interactive plots (e.g., Plotly).
+-Experiment with other clustering algorithms like DBSCAN or Agglomerative Clustering.
+-Integrate real-time prediction for new customer data.
+-Improve visualization with interactive plots (e.g., Plotly).
